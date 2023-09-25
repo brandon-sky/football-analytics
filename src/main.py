@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup, Comment
 from requests import Session
-
+from rich import print
 from connectivity.toWebsite import request_url, parse_html_to_soup
 
 
